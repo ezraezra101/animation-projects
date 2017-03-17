@@ -1,6 +1,6 @@
 ## README
 
-I setup this using WebGL. You shouldn't have any CORS issues.
+I this up with using WebGL. You shouldn't have any CORS issues.
 
 Of note, I include the [Tiny WebGL Helper Library (TWGL)](https://twgljs.org/) which provides syntactic sugar and allows my code to be less verbose than plain webgl. It doesn't add any major features, so I felt safe adding it.
 
