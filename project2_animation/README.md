@@ -8,10 +8,17 @@ I also include the [glMatrix](http://glmatrix.net/) library, which is a library 
 
 ##### Files:
 - `interpolate.js` - contains all functions related to interpolation
-- `project2.html` - The main html file. Contains shaders and rendering function.
+- `project2.html` - The main html file. Contains shaders and rendering functions.
+  - `project2.html` also contains the splines and an OBJ file in textareas. (I would have put these in other files, but AJAX doesn't work on local files, and I wanted this to be able to run without a server)
 - `Quaternion.js` - contains my quaternion class
 - `readSpline.js` - contains functions to read in the spline text into a javascript object
 - `readOBJ.js` - A stripped down OBJ file reader. Will fail on *anything* complicated (e.g. non-triangle shapes)
 - `style.css` - contains minimal styling for `project2.html`
 
-You should just be able to open `project2.html` in a browser (I tested it in Chrome and Safari) to run the project.
+You should just be able to open `project2.html` in a browser (I tested it in Chrome and Safari) to run the project. Or navigate to https://ezraezra101.github.io/animation-projects/project2_animation/project2.html
+
+You should just be able to open project0.html in a browser (I tested it in Chrome) to run the project. 
+
+If the cube is somewhat off the screen, you will probably be able to fix it by resizing the page.
+
+If you still can't get it to work, there's a screen capture in project2.mov and a YoutTube video at https://youtu.be/mydpeGZ7Frg
