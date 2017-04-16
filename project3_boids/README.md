@@ -4,14 +4,12 @@ I wrote this with WebGL. It shouldn't have any CORS issues.
 
 Of note, I include the [Tiny WebGL Helper Library (TWGL)](https://twgljs.org/) which provides syntactic sugar and allows my code to be less verbose than plain webgl. It doesn't add any major features, so I felt safe adding it.
 
-I also include the [glMatrix](http://glmatrix.net/) library, which is a library with simple matrix operations. It has quaternion support, and I use two functions from it to fix bugs in my `Quaternion.js` file.
+I also include the [glMatrix](http://glmatrix.net/) library, which is a library with simple matrix operations.
 
 ##### Files:
-- `interpolate.js` - contains all functions related to interpolation
 - `project3.html` - The main html file. Contains shaders and rendering functions.
   - `project3.html` also contains the an OBJ file in a textarea. (I would have put these in other files, but AJAX doesn't work on local files, and I wanted this to be able to run without a server)
 - `Boid.js` - Contains my boid class (which also handles obstacles). Most of my simulation logic is in here.
-- `Quaternion.js` - contains my quaternion class
 - `readOBJ.js` - A stripped down OBJ file reader. Will fail on *anything* complicated (e.g. non-triangle shapes)
 - `style.css` - contains minimal styling for `project3.html`
 
