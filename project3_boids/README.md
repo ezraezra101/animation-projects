@@ -21,4 +21,4 @@ You should just be able to open project3.html in a browser (I tested it in Chrom
 
 If the cube is somewhat off the screen, you will probably be able to fix it by resizing the page.
 
-If you still can't get it to work, there's a screen capture in project3.mov and a YoutTube video at https://youtu.be/mydpeGZ7Frg
+If you still can't get it to work, there's a screen capture in project3.mov and a YoutTube video at https://youtu.be/I2hgW6TYM6I
